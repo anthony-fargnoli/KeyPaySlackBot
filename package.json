@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@slack/client": "^5.0.0",
+    "@slack/events-api": "^2.2.0",
+    "@slack/web-api": "^5.0.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "debug": "nodemon --inspect app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}

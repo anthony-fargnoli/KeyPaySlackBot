@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\projects\KeyPaySlackBot" t="IncludeFlat">
+      <e p="node_modules" t="ExcludeRecursive">
+        <e p="@slack\client" t="IncludeRecursive" />
+        <e p="@slack\events-api" t="IncludeRecursive" />
+        <e p="@slack\web-api" t="IncludeRecursive" />
+        <e p="@types" t="IncludeRecursive">
+          <e p="events" t="IncludeRecursive" />
+          <e p="node" t="IncludeRecursive" />
+        </e>
+        <e p="body-parser" t="IncludeRecursive" />
+        <e p="express" t="IncludeRecursive" />
+        <e p="nodemon" t="IncludeRecursive" />
+      </e>
+    </e>
+    <e p="C:\Users\noli\.Rider2018.3\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\noli\.Rider2018.3\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\noli\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\noli\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_KeyPaySlackBot.539754096.00" t="ExcludeRecursive" />
+  </component>
+</project>
