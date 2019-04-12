@@ -4,7 +4,8 @@
     "@slack/events-api": "^2.2.0",
     "@slack/web-api": "^5.0.0",
     "body-parser": "^1.18.3",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "moment": "^2.24.0"
   },
   "scripts": {
     "start": "node app.js",

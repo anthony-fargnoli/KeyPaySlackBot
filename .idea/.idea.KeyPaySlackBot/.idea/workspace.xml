@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="993f244a-4dc9-414f-8bea-23a0797d8daf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.debug" afterDir="false" />
+    <list default="true" id="993f244a-4dc9-414f-8bea-23a0797d8daf" name="Default Changelist" comment="yay start add node slack bot">
+      <change afterPath="$PROJECT_DIR$/services/dateHandlerService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.KeyPaySlackBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KeyPaySlackBot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,20 +16,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="160">
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
+        <entry file="file://$PROJECT_DIR$/services/dateHandlerService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+            <state relative-caret-position="288">
+              <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -35,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/yarn.lock">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="179">
-              <caret line="1486" column="56" selection-start-line="1486" selection-start-column="49" selection-end-line="1486" selection-end-column="56" />
+              <caret line="1491" column="56" selection-start-line="1491" selection-start-column="49" selection-end-line="1491" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -60,9 +72,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/run.debug" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/services/dateHandlerService.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -73,10 +86,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="2578" />
-    <option name="height" value="1418" />
+    <option name="x" value="-18" />
+    <option name="width" value="3235" />
+    <option name="height" value="3518" />
   </component>
   <component name="ProjectView">
     <navigator currentView="FileSystemExplorer" proportions="" version="1">
@@ -120,7 +132,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.debug">
+  <component name="RunManager" selected="Attach to Node.js/Chrome.Debug Chrome">
+    <configuration name="Debug Chrome" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="9229" restartOnDisconnect="true">
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="NodeJSConfigurationType" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -150,6 +165,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Attach to Node.js/Chrome.Debug Chrome" />
       <item itemvalue="Node.js.start" />
       <item itemvalue="npm.debug" />
     </list>
@@ -166,12 +182,12 @@
       <updated>1554197256150</updated>
       <workItem from="1554197258015" duration="1781000" />
       <workItem from="1554805060018" duration="3895000" />
-      <workItem from="1554890845548" duration="3315000" />
+      <workItem from="1554890845548" duration="9749000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8991000" />
+    <option name="totallyTimeSpent" value="15425000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -184,9 +200,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09993293" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09993293" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info content_ui="combo" id="Unit Tests" internal_type="SLIDING" order="3" sideWeight="0.74635416" type="SLIDING" weight="0.32875264" />
@@ -194,15 +209,15 @@
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.47851065" weight="0.26435775" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969819" weight="0.32894737" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.583501" weight="0.32017544" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49564052" weight="0.32894737" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.58215964" visible="true" weight="0.32017544" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4974468" weight="0.32967997" />
       <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49914894" weight="0.28408593" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5036888" side_tool="true" visible="true" weight="0.43128654" />
-      <window_info anchor="bottom" x="-3739" y="994" width="3030" height="1170" id="Version Control" order="9" sideWeight="0.7266667" type="WINDOWED" weight="0.304769" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4963112" visible="true" weight="0.43128654" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.41784036" side_tool="true" visible="true" weight="0.32017544" />
+      <window_info anchor="bottom" x="1047" y="486" width="465" height="428" id="Version Control" order="9" sideWeight="0.7266667" type="WINDOWED" weight="0.304769" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49602544" weight="0.43095237" />
       <window_info anchor="bottom" id="NuGet" order="11" sideWeight="0.49659574" weight="0.32932973" />
       <window_info anchor="bottom" id="Change Signature" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="13" sideWeight="0.48187634" visible="true" weight="0.33261105" />
@@ -225,6 +240,10 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="yay start add node slack bot" />
+    <option name="LAST_COMMIT_MESSAGE" value="yay start add node slack bot" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -232,21 +251,45 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app.js</url>
+          <line>24</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app.js</url>
+          <line>26</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>req.query.derp</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>req.query</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>req.query()</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yarn.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
-          <caret line="1486" column="56" selection-start-line="1486" selection-start-column="49" selection-end-line="1486" selection-end-column="56" />
+          <caret line="1491" column="56" selection-start-line="1491" selection-start-column="49" selection-end-line="1491" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -255,8 +298,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="160">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/dateHandlerService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
