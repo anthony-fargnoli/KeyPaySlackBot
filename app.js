@@ -3,7 +3,7 @@ const slack = require('@slack/client');
 const express = require('express');
 const bodyParser = require('body-parser');
 const DateHandlerService = require('./services/dateHandlerService');
-
+const config = require('./config.json');
 const dateHandlerService = new DateHandlerService();
 module.exports = function() {};
 
@@ -11,7 +11,7 @@ const app = express();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-const server = app.listen(8081, () => { console.log('Express server   listening on port %d in %s mode', server.address().port,   app.settings.env);});
+const server = app.listen(config.prod.port, () => { console.log('Express server   listening on port %d in %s mode', server.address().port,   app.settings.env);});
 
 app.post('/', (req, res) => {
     let text = req.body.text;
