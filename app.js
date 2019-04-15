@@ -11,7 +11,9 @@ const app = express();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-const server = app.listen(config.prod.port, () => { console.log('Express server   listening on port %d in %s mode', server.address().port,   app.settings.env);});
+const server = app.listen(() => { console.log('Express server   listening on port %d in %s mode', server.address().port,   app.settings.env);});
+
+//config.prod.port
 
 app.post('/', (req, res) => {
     let text = req.body.text;

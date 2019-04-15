@@ -1,8 +1,10 @@
 {
     "prod": {
-        "port": 80
+        "port": 80,
+        "host": "dry-mountain-20816.herokuapp.com"
     },
     "dev": {
-        "port": 8081
+        "port": 8081,
+        "host": "localhost"
     }
 }
