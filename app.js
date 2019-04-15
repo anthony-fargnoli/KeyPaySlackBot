@@ -9,8 +9,8 @@ module.exports = function() {};
 
 const app = express();
 
-process.env.Port = process.env.Port || config.dev.port;
-const port = +process.env.Port;
+process.env.PORT = process.env.PORT || config.dev.port;
+const port = +process.env.PORT;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));

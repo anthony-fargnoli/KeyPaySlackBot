@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="993f244a-4dc9-414f-8bea-23a0797d8daf" name="Default Changelist" comment="yay start add node slack bot">
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-    </list>
+    <list default="true" id="993f244a-4dc9-414f-8bea-23a0797d8daf" name="Default Changelist" comment="yay start add node slack bot" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,12 +196,12 @@
       <updated>1554197256150</updated>
       <workItem from="1554197258015" duration="1781000" />
       <workItem from="1554805060018" duration="3895000" />
-      <workItem from="1554890845548" duration="17112000" />
+      <workItem from="1554890845548" duration="17701000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22788000" />
+    <option name="totallyTimeSpent" value="23377000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
