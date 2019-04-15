@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="993f244a-4dc9-414f-8bea-23a0797d8daf" name="Default Changelist" comment="yay start add node slack bot">
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +16,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -25,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            <state relative-caret-position="351">
+              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -149,7 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Attach to Node.js/Chrome.Debug Chrome">
+  <component name="RunManager" selected="npm.debug">
     <configuration name="Debug Chrome" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="9229" restartOnDisconnect="true">
       <method v="2" />
     </configuration>
@@ -199,12 +198,12 @@
       <updated>1554197256150</updated>
       <workItem from="1554197258015" duration="1781000" />
       <workItem from="1554805060018" duration="3895000" />
-      <workItem from="1554890845548" duration="14607000" />
+      <workItem from="1554890845548" duration="15121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20283000" />
+    <option name="totallyTimeSpent" value="20797000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -217,7 +216,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07942431" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -227,13 +225,13 @@
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.47851065" weight="0.26435775" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49520257" weight="0.3288889" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5804904" visible="true" weight="0.24333334" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49200428" weight="0.3288889" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.5778252" visible="true" weight="0.34333333" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4974468" weight="0.32967997" />
       <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49914894" weight="0.28408593" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4195096" side_tool="true" visible="true" weight="0.24333334" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.42217484" side_tool="true" visible="true" weight="0.34333333" />
       <window_info anchor="bottom" x="1047" y="486" width="465" height="428" id="Version Control" order="9" sideWeight="0.7266667" type="WINDOWED" weight="0.304769" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49573562" weight="0.43" />
       <window_info anchor="bottom" id="NuGet" order="11" sideWeight="0.49659574" weight="0.32932973" />
@@ -269,6 +267,12 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app.js</url>
+          <line>26</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -302,13 +306,6 @@
     <entry file="file://$PROJECT_DIR$/run.debug">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/dateHandlerService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -330,10 +327,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        <state relative-caret-position="351">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
         </state>
       </provider>
     </entry>
