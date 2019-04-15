@@ -9,9 +9,13 @@ module.exports = function() {};
 
 const app = express();
 
+process.env.Port = process.env.Port || config.dev.port;
+const port = +process.env.Port;
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-const server = app.listen(() => { console.log('Express server   listening on port %d in %s mode', server.address().port,   app.settings.env);});
+
+const server = app.listen(port, () => { console.log('Express server   listening on port %d in %s mode', server.address().port,   app.settings.env)});
 
 app.post('/', (req, res) => {
     let text = req.body.text;

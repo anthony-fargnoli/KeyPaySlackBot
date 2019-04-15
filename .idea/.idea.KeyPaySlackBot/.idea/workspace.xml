@@ -24,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+            <state relative-caret-position="160">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -33,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/express/lib/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="617" column="41" lean-forward="true" selection-start-line="617" selection-start-column="41" selection-end-line="617" selection-end-column="41" />
+            <state relative-caret-position="109">
+              <caret line="615" selection-start-line="615" selection-end-line="615" />
             </state>
           </provider>
         </entry>
@@ -87,10 +87,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/run.debug" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/services/dateHandlerService.js" />
         <option value="$PROJECT_DIR$/config.json.js" />
         <option value="$PROJECT_DIR$/config.json" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
@@ -102,9 +102,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="1294" />
-    <option name="height" value="1407" />
+    <option name="x" value="-18" />
+    <option name="width" value="3235" />
+    <option name="height" value="3518" />
   </component>
   <component name="ProjectView">
     <navigator currentView="FileSystemExplorer" proportions="" version="1">
@@ -198,12 +198,12 @@
       <updated>1554197256150</updated>
       <workItem from="1554197258015" duration="1781000" />
       <workItem from="1554805060018" duration="3895000" />
-      <workItem from="1554890845548" duration="15121000" />
+      <workItem from="1554890845548" duration="17112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20797000" />
+    <option name="totallyTimeSpent" value="22788000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -215,9 +215,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07942431" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09993293" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info content_ui="combo" id="Unit Tests" internal_type="SLIDING" order="3" sideWeight="0.74635416" type="SLIDING" weight="0.32875264" />
@@ -225,13 +226,13 @@
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.47851065" weight="0.26435775" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49200428" weight="0.3288889" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.5778252" visible="true" weight="0.34333333" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48826292" weight="0.32748538" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.5734407" visible="true" weight="0.4517544" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4974468" weight="0.32967997" />
       <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49914894" weight="0.28408593" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.42217484" side_tool="true" visible="true" weight="0.34333333" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.42655936" side_tool="true" visible="true" weight="0.4517544" />
       <window_info anchor="bottom" x="1047" y="486" width="465" height="428" id="Version Control" order="9" sideWeight="0.7266667" type="WINDOWED" weight="0.304769" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49573562" weight="0.43" />
       <window_info anchor="bottom" id="NuGet" order="11" sideWeight="0.49659574" weight="0.32932973" />
@@ -267,12 +268,6 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/app.js</url>
-          <line>26</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -313,20 +308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="617" column="41" lean-forward="true" selection-start-line="617" selection-start-column="41" selection-end-line="617" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -334,10 +315,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="615" selection-start-line="615" selection-end-line="615" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        <state relative-caret-position="160">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
