@@ -3,7 +3,7 @@ const slack = require('@slack/client');
 const express = require('express');
 const bodyParser = require('body-parser');
 const DateHandlerService = require('./services/dateHandlerService');
-const config = require('./config.json');
+const config = require('./config.json');//require('./services/configHandler');
 const dateHandlerService = new DateHandlerService();
 module.exports = function() {};
 
@@ -15,6 +15,11 @@ const port = +process.env.PORT;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+// fetch user list and populate timezones for each user
+const client = new slack.WebClient('xoxb-150564108449-591147369348-KxABcG9nPcUWJH70wq1gfHgU');
+
+
+
 const server = app.listen(port, () => { console.log('Express server   listening on port %d in %s mode', server.address().port,   app.settings.env)});
 
 app.post('/', (req, res) => {
@@ -23,6 +28,30 @@ app.post('/', (req, res) => {
 
     res.send(dateHandlerService.parseDate(text));
     
+});
+
+app.get('/users', (req, res) => {
+
+    (async() => {
+
+        let arr = [];
+        
+        try
+        {
+            const response = await client.users.list();
+
+            arr = response.members;    
+        }
+        finally {
+            res.send(arr);
+        }
+        
+        
+
+    })();
+
+
+
 });
 
 app.get('/', (req, res) => {
