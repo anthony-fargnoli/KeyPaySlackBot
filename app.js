@@ -50,8 +50,19 @@ let clientHandler = null;
 
 
 // Attach listeners to events by Slack Event "type". See: https://api.slack.com/events/message.im
-slackEvents.on('message', (event) => {
+slackEvents.on('message', async (event) => {
     console.log(`Received a message event: user ${event.user} in channel ${event.channel} says ${event.text}`);
+    
+    try
+    {
+        const response = await client.chat.postMessage({channel: event.channel, text: event.text});
+        
+        console.log(response);
+    }
+    catch (e) {
+        console.log('error occurred while posting message' + e);
+    }
+    
 });
 
 // Handle errors (see `errorCodes` export)
