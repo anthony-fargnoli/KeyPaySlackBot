@@ -5,6 +5,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const DateHandlerService = require('./services/dateHandlerService');
 const ClientHandlerService = require('./services/clientHandlerService');
+const logger = require('heroku-logger');
 module.exports = function() {};
 
 const app = express();
@@ -33,9 +34,11 @@ fetchUsers = (async() => {
 
         arr = response.members;
     }
-    finally {
-        
+    catch(e)
+    {
+        logger.error('Error occurred', {error: e});    
     }
+    
     
     return arr;
 
@@ -57,20 +60,20 @@ slackEvents.on('message', async (event) => {
     {
         const response = await client.chat.postMessage({channel: event.channel, text: event.text});
         
-        console.log(response);
+        logger.info(response);
     }
     catch (e) {
-        console.log('error occurred while posting message' + e);
+        logger.error('error occurred while posting message', {error: e});
     }
     
 });
 
 // Handle errors (see `errorCodes` export)
-slackEvents.on('error', console.error);
+slackEvents.on('error', logger.error);
 
 app.use('/slack/events', slackEvents.expressMiddleware());
 
-const server = app.listen(port, () => { console.log('Express server   listening on port %d in %s mode', server.address().port,   app.settings.env)});
+const server = app.listen(port, () => { logger.info('Express server   listening on port %d in %s mode', {port: server.address().port, env: app.settings.env})});
 
 
 app.get('/', (req, res) => {
@@ -88,6 +91,7 @@ app.get('/', (req, res) => {
     }
     catch (e) {
         res.send("An error occurred");
+        logger.error('An error occurred', {error: e});
     }
 
 });

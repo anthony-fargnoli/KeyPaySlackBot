@@ -5,6 +5,7 @@
     "@slack/web-api": "^5.0.0",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
+    "heroku-logger": "^0.3.3",
     "moment": "^2.24.0",
     "moment-timezone": "^0.5.25"
   },
