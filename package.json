@@ -5,7 +5,8 @@
     "@slack/web-api": "^5.0.0",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "moment": "^2.24.0"
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.25"
   },
   "scripts": {
     "start": "node app.js",

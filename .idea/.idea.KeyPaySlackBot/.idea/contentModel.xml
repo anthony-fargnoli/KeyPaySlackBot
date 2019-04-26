@@ -13,6 +13,7 @@
         <e p="body-parser" t="IncludeRecursive" />
         <e p="express" t="IncludeRecursive" />
         <e p="moment" t="IncludeRecursive" />
+        <e p="moment-timezone" t="IncludeRecursive" />
         <e p="nodemon" t="IncludeRecursive" />
       </e>
     </e>

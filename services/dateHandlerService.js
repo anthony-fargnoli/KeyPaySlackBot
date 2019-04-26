@@ -1,4 +1,5 @@
 const moment = require('moment');
+const timezone = require('moment-timezone');
 
 class DateHandlerService {
     
@@ -6,14 +7,16 @@ class DateHandlerService {
         
     }
     
-    parseDate(dateString)  {
+    parseDate(dateString, timeZone)  {
         
-         let date = moment(dateString);
+         const date = moment(dateString);
          
          if (!date.isValid())
-             return Error(`${dateString} is not a valid Date`)
-        
-         return `this date in your timezone is ${date.format()}.`
+             return Error(`${dateString} is not a valid Date`);
+
+        const newTimeZoneDate = date.tz(timeZone);
+         
+         return `this date in your timezone is ${newTimeZoneDate.format()}.`;
         
     }
     
